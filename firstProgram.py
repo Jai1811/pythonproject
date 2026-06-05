@@ -17,5 +17,16 @@ print(year//age)
 print (year%age)
 print (age**year)
 
+#type conversion
+a, b= 1, 2.0
+print(a+b)
 
+#type casting
+a,b= 1,"2"
+c = int(b)
+print(a+c)
+
+
+#type casting can happen for the following data types
+#int(), float(), complex(),str(),tuple(), list(), set(), dict(),ord(),hex(),oct()
 

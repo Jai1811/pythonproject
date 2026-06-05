@@ -1,5 +1,5 @@
 
-
+#unordered mutable, no duplicate keys
 dict = {
     "key":"value",
     "subject":["Maths","English"],
@@ -23,14 +23,21 @@ print(list(dict.values()))
 
 print(dict["subdict"]["Maths"])
 
-print(list(dict.items()))
+print(list(dict.items()))#returns all the key value pairs as tuples
 
 print(dict.get("subdict"))
 
-dict.update({"city":"sdfdfs"})
+dict.update({"city":"sdfdfs"})#inserts specified items to dict
 
 dict.update({"key":"Vales"})
 
 print(dict)
 
-print(dict[""])
+
+dict2 = {
+    "innerdict":{
+        "data":1
+    }
+}
+
+print(dict2["innerdict"]["data"])

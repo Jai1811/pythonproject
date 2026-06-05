@@ -1,4 +1,5 @@
 #to make variables or variables as private __ is appended in the beginning of the word
+#to make variables protected _ is appended in the beginning of the word
 class Account:
     __name ="anonymous"
 

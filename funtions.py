@@ -23,8 +23,17 @@ range(1)
 cities=["Delhi","Gurugram","Milton Keynes","London"]
 
 def print_List(list):
-    for city in cities:
+    for city in list:
         print(city)
 
 print_List(cities)
+
+def print_item(value):
+    """Print whether the given value is an int or str (safe for other types)."""
+    if isinstance(value, int):
+        print("The number is", value)
+    elif isinstance(value, str):
+        print("The string is", value)
+    else:
+        print("Unsupported type:", type(value))
 
